@@ -46,16 +46,16 @@ class Color:
 class Powerline:
     symbols = {
         'compatible': {
-            'separator': '\u25B6',
-            'separator_thin': '\u276F'
+            'separator': '\uE0B0',
+            'separator_thin': '\uE0B1'
         },
         'patched': {
-            'separator': '\u2B80',
-            'separator_thin': '\u2B81'
+            'separator': '\uE0B0',
+            'separator_thin': '\uE0B1'
         },
         'default': {
-            'separator': '⮀',
-            'separator_thin': '⮁'
+            'separator': '',
+            'separator_thin': ''
         }
     }
     LSQESCRSQ = '\\[\\e%s\\]'
